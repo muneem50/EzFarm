@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgmygui1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="150dp"
+        android:src="@drawable/paddy_svgrepo_com"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:id="@+id/nc"
+        android:hint="Enter Nitrogen content in soil."
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:id="@+id/pc"
+        android:hint="Enter phosphorus content in soil."
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:hint="Enter potassium content in soil."
+        android:id="@+id/kc"
+        android:textColorHint="@color/black"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:id="@+id/tc"
+        android:hint="Enter temperature."
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:hint="Enter Humidity."
+        android:id="@+id/hc"
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:id="@+id/phc"
+        android:hint="Enter pH of soil."
+        android:textColorHint="@color/black"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:id="@+id/rc"
+        android:hint="Enter rainfall (in cm)."
+        android:textColorHint="@color/black"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#8AA668"
+        android:id="@+id/btn"
+        android:text="@string/submit"/>
+
+</LinearLayout>
