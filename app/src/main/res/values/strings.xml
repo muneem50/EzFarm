@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">EzFarming</string>
+    <string name="About">EzFarming</string>
+    <string name="About1">About EzFarming</string>
+    <string name="submit">Predict</string>
+    <string name="About2"> About App</string>
+    <string name="About3">For most countries, agriculture is unquestionably
+        important and contributes to the economic sector of the country.
+        Earlier, the crop to be sown was predicted by farmers’
+        hands-on practice and experience. They were not aware of the proper nutrients present in the soil,
+        which reduced the yield of crops. Also, agriculture faces many other challenges,
+        such as climatic changes, pests, crop diseases, etc. Therefore, the prediction of
+        the right crop is necessary to ensure a better yield with less damage. So,
+        considering all these problems, a system is designed using ensemble learning to
+        recommend the crop based on certain features like soil content and climatic factors.
+        Factors taken into consideration for the prediction are :
+        Nitrogen content in the soil, Phosphorus content in the soil,
+        Potassium content in the soil, pH of the soil, temperature, humidity, and rainfall.</string>
+
+
+    <string name="state">State*</string>
+    <string name="district">District*</string>
+    <string name="submit1">Proceed >></string>
+
+    <string name="citynew">City</string>
+    <string name="statenew">State</string>
+
+    <string name="crop">Crop</string>
+
+    <string name="enter_nitrogen_content_in_soil">Enter Nitrogen content in soil.</string>
+    <string name="enter_phosphorus_content_in_soil">Enter phosphorus content in soil.</string>
+    <string name="enter_potassium_content_in_soil">Enter potassium content in soil.</string>
+    <string name="enter_temperature">Enter temperature.</string>
+    <string name="enter_humidity">Enter Humidity.</string>
+    <string name="enter_ph_of_soil">Enter pH of soil.</string>
+    <string name="enter_rainfall_in_cm">Enter rainfall (in cm).</string>
+
+    <string name="nitrogen_content">Nitrogen Content:</string>
+    <string name="phosphorus_content">Phosphorus Content:</string>
+    <string name="potassium_content">Potassium Content:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="humidity1">Humidity:</string>
+    <string name="soil_ph1">Soil pH:</string>
+    <string name="rainfall1">Rainfall:</string>
+    <string name="city_api">  City</string>
+    <string name="state_api">  State</string>
+    <string name="clear">Clear</string>
+    <string name="cropnew">Crop</string>
+
+
+    <string-array name="array_crop">
+        <item>Select Crop</item>
+        <item>Wheat</item>
+        <item>Corn</item>
+        <item>Potato</item>
+        <item>Onions</item>
+    </string-array>
+
+<!--    <string-array name="array_states">-->
+<!--        <item>Select Your State</item>-->
+<!--        <item>Balochistan</item>-->
+<!--        <item>Khyber Pakhtunkhwa</item>-->
+<!--        <item>Punjab</item>-->
+<!--        <item>Sindh</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="array_default_districts">-->
+<!--        <item>Select Your District</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="array_kpk_districts">-->
+<!--        <item>Select Your District</item>-->
+<!--        <item>Karak District</item>-->
+<!--        <item>Kohat District</item>-->
+<!--        <item>Abbottabad District</item>-->
+<!--        <item>Hangu District</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="array_punjab_districts">-->
+<!--        <item>Select Your District</item>-->
+<!--        <item>Bahawalnagar District</item>-->
+<!--        <item>Dera Ghazi Khan District</item>-->
+<!--        <item>Chiniot District</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="array_sindh_districts">-->
+<!--        <item>Select Your District</item>-->
+<!--        <item>Sukkur</item>-->
+<!--        <item>Khairpur</item>-->
+<!--        <item>Larkana</item>-->
+<!--    </string-array>-->
+<!--    <string-array name="array_balochistan_districts">-->
+<!--        <item>Select Your District</item>-->
+<!--        <item>Awaran District</item>-->
+<!--        <item>Barkhan District</item>-->
+<!--        <item>Chagai District</item>-->
+<!--    </string-array>-->
+
+
+
+
+
+</resources>

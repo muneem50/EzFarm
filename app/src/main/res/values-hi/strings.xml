@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EzFarming</string>
+    <string name="About">ایز فارمنگ</string>
+    <string name="About1"> ایپ کے بارے میں </string>
+    <string name="submit">پیش گوئی کریں</string>
+    <string name="About2"> ایپ کے بارے میں</string>
+    <string name="About3">زیادہ تر ممالک کے لیے، زراعت بلاشبہ ہے۔
+        اہم اور ملک کے اقتصادی شعبے میں حصہ ڈالتا ہے۔
+        اس سے قبل کسانوں کی جانب سے بوائی جانے والی فصل کی پیش گوئی کی گئی تھی۔
+        ہاتھ پر مشق اور تجربہ. وہ مٹی میں موجود مناسب غذائی اجزاء سے واقف نہیں تھے،
+        جس سے فصلوں کی پیداوار میں کمی آئی۔ اس کے علاوہ، زراعت کو بہت سے دوسرے چیلنجز کا سامنا ہے،
+        جیسا کہ موسمی تبدیلیاں، کیڑوں، فصلوں کی بیماریاں وغیرہ
+        کم نقصان کے ساتھ بہتر پیداوار کو یقینی بنانے کے لیے صحیح فصل ضروری ہے۔ تو،
+        ان تمام مسائل پر غور کرتے ہوئے، ایک نظام کو ensemble لرننگ کا استعمال کرتے ہوئے ڈیزائن کیا گیا ہے۔
+        کچھ خصوصیات جیسے مٹی کے مواد اور موسمی عوامل کی بنیاد پر فصل کی سفارش کریں۔
+        پیشین گوئی کے لیے جن عوامل کو مدنظر رکھا گیا ہے وہ ہیں:
+        مٹی میں نائٹروجن کی مقدار، مٹی میں فاسفورس کی مقدار،
+        مٹی میں پوٹاشیم کا مواد، مٹی کا پی ایچ، درجہ حرارت، نمی اور بارش۔</string>
+
+
+    <string name="state">حالت</string>
+    <string name="district">ضلع</string>
+    <string name="submit1">آگے بڑھیں >></string>
+    <string name="citynew">شہر</string>
+    <string name="statenew">ریاست</string>
+
+    <string name="enter_nitrogen_content_in_soil">مٹی میں نائٹروجن کا مواد داخل کریں۔</string>
+    <string name="enter_phosphorus_content_in_soil">مٹی میں فاسفورس کا مواد داخل کریں۔</string>
+    <string name="enter_potassium_content_in_soil">مٹی میں پوٹاشیم کا مواد درج کریں۔</string>
+    <string name="enter_temperature">درجہ حرارت درج کریں۔</string>
+    <string name="enter_humidity">نمی درج کریں۔</string>
+    <string name="enter_ph_of_soil">مٹی کا پی ایچ درج کریں۔</string>
+    <string name="enter_rainfall_in_cm">بارش درج کریں (سینٹی میٹر میں)۔</string>
+
+    <string name="city_api">شہر</string>
+    <string name="state_api">ریاست</string>
+
+
+<!--    <string name="nitrogen_content"> نائٹروجن مواد</string>-->
+<!--    <string name="phosphorus_content">فاسفورس کا مواد</string>-->
+<!--    <string name="potassium_content"> پوٹاشیم کا مواد</string>-->
+<!--    <string name="temperature">درجہ حرارت</string>-->
+<!--    <string name="humidity1">نمی</string>-->
+<!--    <string name="soil_ph1">مٹی کا پی ایچ</string>-->
+<!--    <string name="rainfall1">بارش</string>-->
+
+
+
+    <string name="crop">فصل</string>
+    <string name="clear">صاف</string>
+    <string name="cropnew">فصل</string>
+
+
+    <string-array name="array_crop">
+        <item>Select Crop</item>
+        <item>Wheat</item>
+        <item>Corn</item>
+        <item>Potato</item>
+        <item>Onions</item>
+    </string-array>
+</resources>

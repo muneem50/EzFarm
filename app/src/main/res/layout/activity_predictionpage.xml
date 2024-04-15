@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bgmygui1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="150dp"
+        android:src="@drawable/paddy_svgrepo_com" />
+
+<!--    <TextView-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="@string/About"-->
+<!--        android:gravity="center"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"/>-->
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nitrogen_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/a"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/phosphorus_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/b"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/potassium_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/c"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/temperature"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/d"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/humidity1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/e"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/soil_ph1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/f"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="@string/rainfall1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:id="@+id/g"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Suitable Crop"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:id="@+id/result"
+        android:textStyle="bold" />
+
+    </LinearLayout>
